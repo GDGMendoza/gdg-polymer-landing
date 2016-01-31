@@ -1,0 +1,20 @@
+<dom-module id="nav-top">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			.logo {
+				@apply(--gdg-logo);
+			}
+		</style>
+		<div>
+			<gdg-logo class="logo" name="Mendoza"></gdg-logo>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'nav-top'
+		});
+	</script>
+</dom-module>
